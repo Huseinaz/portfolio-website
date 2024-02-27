@@ -5,6 +5,7 @@
 }
 
 img {
+  margin-top: 10px;
     border-radius: 50%;
   }
 
@@ -12,14 +13,19 @@ img {
   text-align: center;
 }
 
-.box {
-  margin-top: 10px;
-  width: 49%;
+section {
   display: inline-block;
+  width: 49%;
+  vertical-align: middle; /* Align sections vertically */
 }
 
-.box.intro {
+.left-side {
   padding-left: 100px;
+  
+}
+
+.right-side {
+  padding-left: 150px;
 }
 
 .footer {
@@ -27,7 +33,7 @@ img {
   background-color: rgb(218, 206, 191);
   color: rgb(56, 44, 44);
   padding: 10px;
-  margin-top: 120px;
+  margin-top: 99px;
 }
 
 a {
@@ -35,4 +41,13 @@ a {
   margin-top: 10px;
   text-align: center;
   display: block;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
 }

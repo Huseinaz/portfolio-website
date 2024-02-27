@@ -8,9 +8,11 @@ table,
 th,
 td {
   border: 1px solid;
+  padding: 1.1px;
 }
 
 table {
+  margin-top: 70px;
   width: 50%;
 }
 
@@ -25,10 +27,12 @@ td {
 
 h2 {
   text-align: center;
+  font-size: 32px;
 }
 
 p {
   padding: 20px;
+  font-size: large;
 }
 
 .footer {
@@ -36,12 +40,17 @@ p {
   background-color: rgb(56, 44, 44);
   color: rgb(218, 206, 191);
   padding: 10px;
-  margin-top: 353px;
+  margin-top: 100px;
 }
 
 a {
   color: rgb(56, 44, 44);
-  margin-top: 10px;
+  margin-top: 122px;
   text-align: center;
   display: block;
+  font-size: 20px;
+}
+
+.checked {
+  color: orange;
 }
