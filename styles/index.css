@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+    border-radius: 50%;
+  }
+
+.header {
+  text-align: center;
+}
+
+.box {
+  margin-top: 10px;
+  width: 49%;
+  display: inline-block;
+}
+
+.box.intro {
+  padding-left: 100px;
+}
+
+.footer {
+  text-align: center;
+  background-color: rgb(218, 206, 191);
+  color: rgb(56, 44, 44);
+  padding: 10px;
+  margin-top: 120px;
+}
+
+a {
+  color: rgb(218, 206, 191);
+  margin-top: 10px;
+  text-align: center;
+  display: block;
+}

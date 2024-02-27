@@ -1,0 +1,15 @@
+.bg-primary {
+    background-color: rgb(56, 44, 44);
+}
+
+.bg-secondary {
+    background-color: rgb(218, 206, 191);
+}
+
+.primary-color {
+    color: rgb(56, 44, 44);
+}
+
+.secondary-color {
+    color: rgb(218, 206, 191);
+}
